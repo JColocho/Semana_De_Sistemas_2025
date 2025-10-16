@@ -3,7 +3,7 @@
         <h4 class="mb-1">Registro de Visita</h4>
     </div>
 
-    <form class="px-4 py-3">
+    <form class="px-4 py-3" method="POST" action="guardar">
         <div class="mb-2">
         <label for="nombre" class="form-label">Nombre</label>
         <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre">

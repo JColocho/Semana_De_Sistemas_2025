@@ -1,5 +1,6 @@
 <?php
 namespace app\controllers;
+use app\models\Visitante_model;
 
 class HomeController{
 
@@ -9,6 +10,15 @@ class HomeController{
 
     public function registro() {
         return $this->view("RegistroView",['title'=>'Registro']);
+    }
+
+    public function registrarDatos(){
+        if (isset($_POST)){
+            $persona = new Visitante_model();
+            if ($persona->guardarVisitante($_POST)){
+                return header("Location: "); // todo hace falta a que redirigir
+            }
+        }
     }
 
         public function view($vista,$data=[]){
