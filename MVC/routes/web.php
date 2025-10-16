@@ -7,6 +7,8 @@ use app\controllers\HomeController;
 // });
 
 Route::get("/",[HomeController::class,("home")]);
+Route::get("/registro",[HomeController::class,("registro")]);
+
 
 Route::dispatch();
 ?>

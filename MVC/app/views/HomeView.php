@@ -5,7 +5,7 @@
             <p class="lead mb-5 fs-4">Un evento académico y tecnológico organizado 
                 por y para los estudiantes de Ingeniería de Sistemas Informáticos
                 en la Universidad de El Salvador, Facultad Multidisciplinaria Oriental.</p>
-            <a href="#" class="btn btn-primary btn-lg px-5 py-3">Registra tu visita</a>
+            <a href="/MVC/public/registro" class="btn btn-primary btn-lg px-5 py-3">Registra tu visita</a>
         </div>
     </section>
 

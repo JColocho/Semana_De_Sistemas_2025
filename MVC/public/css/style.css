@@ -1,3 +1,12 @@
+.navbar{
+    background-color: #0f1e75ff;
+}
+
+.navbar .nav-link:hover {
+    background-color: white;
+    color: black !important;
+}
+
 .banner {
     background-image: url('../img/banner.jpg');
     background-size: cover;
@@ -39,4 +48,31 @@
 
 .social-icon:hover {
     color: #0d6efd;
+}
+
+.formulario {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.formulario .encabezado {
+    background: linear-gradient(90deg, #0c238b, #3a0ca3);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #0c238b, #3a0ca3);
+    border: none;
+    color: #fff;
+    transition: background 0.4s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(270deg, #0c238b, #3a0ca3);
 }

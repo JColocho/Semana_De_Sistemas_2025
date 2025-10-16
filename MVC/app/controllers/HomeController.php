@@ -7,6 +7,10 @@ class HomeController{
         return $this->view("HomeView",['title'=>'Inicio']);
     }
 
+    public function registro() {
+        return $this->view("RegistroView",['title'=>'Registro']);
+    }
+
         public function view($vista,$data=[]){
         extract($data); //apartir de un arreglo asosiativo genera variables
 

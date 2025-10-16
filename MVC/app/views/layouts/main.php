@@ -12,9 +12,9 @@
 </head>
 <body>
         <!-- Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">
+            <a class="navbar-brand fw-bold text-white" href="/MVC/public/">
                 <i class="bi bi-cpu me-2"></i>Semana de Sistemas 2025
             </a>
             <button class="navbar-toggler" type="button">
@@ -22,14 +22,14 @@
             </button>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Día 1</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Día 2</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Día 3</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Día 4</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Día 5</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Mi Información</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Registro</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 1</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 2</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 3</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 4</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 5</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Mi Información</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/registro">Registro</a></li>
                 </ul>
             </div>
         </div>
