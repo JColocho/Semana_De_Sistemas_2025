@@ -12,6 +12,10 @@ class HomeController{
         return $this->view("RegistroView",['title'=>'Registro']);
     }
 
+    public function dia1() {
+        return $this->view("Dia1View",['title'=>'Día 1']);
+    }
+
     public function registrarDatos(){
         if (isset($_POST)){
             $persona = new Visitante_model();

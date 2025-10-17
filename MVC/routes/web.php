@@ -7,6 +7,7 @@ use app\controllers\HomeController;
 // });
 
 Route::get("/",[HomeController::class,("home")]);
+Route::get("/dia1",[HomeController::class,("dia1")]);
 Route::get("/registro",[HomeController::class,("registro")]);
 Route::post("/guardar", [HomeController::class, "registrarDatos"]);
 

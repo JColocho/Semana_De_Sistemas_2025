@@ -1,5 +1,14 @@
+
+:root {
+    --primario: #0c238b;
+    --primario-oscuro: #0f1e75;
+    --fondo-claro: #f0f2ff;
+    --borde-tarjeta: rgba(12,35,139,0.05);
+}
+
+/* estilos para main.php */
 .navbar{
-    background-color: #0f1e75ff;
+    background-color: var(--primario);
 }
 
 .navbar .nav-link:hover {
@@ -7,6 +16,22 @@
     color: black !important;
 }
 
+.footer {
+    background-color: #212529;
+    color: #adb5bd;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.social-icon:hover {
+    color: #0d6efd;
+}
+
+
+/* estilos para HomeView.php */
 .banner {
     background-image: url('../img/banner.jpg');
     background-size: cover;
@@ -36,20 +61,8 @@
     margin-bottom: 1rem;
 }
 
-.footer {
-    background-color: #212529;
-    color: #adb5bd;
-}
 
-.social-icon {
-    color: #fff;
-    font-size: 1.5rem;
-}
-
-.social-icon:hover {
-    color: #0d6efd;
-}
-
+/* estilos para RegistroView.php */
 .formulario {
     background: #fff;
     border-radius: 12px;
@@ -60,19 +73,171 @@
     overflow: hidden;
 }
 .formulario .encabezado {
-    background: linear-gradient(90deg, #0c238b, #3a0ca3);
+    background: linear-gradient(90deg, var(--primario), #3a0ca3);
     color: #fff;
     text-align: center;
     padding: 25px;
 }
 
 .btn-primary {
-    background: linear-gradient(90deg, #0c238b, #3a0ca3);
+    background: linear-gradient(90deg, var(--primario), #3a0ca3);
     border: none;
     color: #fff;
     transition: background 0.4s ease;
 }
 
 .btn-primary:hover {
-    background: linear-gradient(270deg, #0c238b, #3a0ca3);
+    background: linear-gradient(270deg, var(--primario), #3a0ca3);
+}
+
+
+/* estilos para DiasView.php */
+body {
+    background-color: var(--fondo-claro);
+    color: #222;
+    line-height: 1.6;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+    color: var(--primario);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.tarjeta {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(12,35,139,0.08);
+    margin-bottom: 28px;
+    border: 1px solid var(--borde-tarjeta);
+}
+
+.encabezado-tarjeta {
+    background-color: var(--primario);
+    color: #fff;
+    padding: 18px 20px;
+}
+
+.encabezado-tarjeta h3 {
+    margin: 0 0 4px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.cuerpo-tarjeta {
+    padding: 20px;
+}
+
+.bloque-actividad {
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.bloque-actividad img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.bloque-actividad img:hover {
+    transform: scale(1.03);
+}
+
+.descripcion-actividad {
+    margin: 10px 0 16px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.seccion-presentadores {
+    background-color: rgba(12,35,139,0.03);
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 18px;
+    border: 1px solid rgba(12,35,139,0.06);
+}
+
+.seccion-presentadores h4 {
+    color: var(--primario);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.presentador {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(12,35,139,0.04);
+    margin-bottom: 12px;
+    transition: transform 0.18s ease;
+}
+
+.presentador:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(12,35,139,0.07);
+}
+
+.avatar-presentador {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--primario);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+    flex-shrink: 0;
+}
+
+.avatar-presentador img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info-presentador h5 {
+    color: var(--primario-oscuro);
+    margin-bottom: 4px;
+}
+
+.info-presentador .rol {
+    color: var(--primario);
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.info-presentador p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .bloque-actividad {
+        height: 180px;
+    }
+
+    .presentador {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .avatar-presentador {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }

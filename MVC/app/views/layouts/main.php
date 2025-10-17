@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 1</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/dia1">Día 1</a></li>
                     <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 2</a></li>
                     <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 3</a></li>
                     <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 4</a></li>
