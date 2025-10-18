@@ -15,7 +15,18 @@ class HomeController{
     public function dia1() {
         return $this->view("Dia1View",['title'=>'Día 1']);
     }
-
+    public function dia2() {
+        return $this->view("Dia2View",['title'=>'Día 2']);
+    }
+    public function dia3() {
+        return $this->view("Dia3View",['title'=>'Día 3']);
+    }
+    public function dia4() {
+        return $this->view("Dia4View",['title'=>'Día 4']);
+    }
+    public function dia5() {
+        return $this->view("Dia5View",['title'=>'Día 5']);
+    }
     public function registrarDatos(){
         if (isset($_POST)){
             $persona = new Visitante_model();

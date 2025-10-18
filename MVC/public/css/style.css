@@ -151,6 +151,26 @@ h2 {
     transform: scale(1.03);
 }
 
+.bloque-actividad-centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.bloque-actividad-centro img {
+    max-width: 70%;       
+    height: auto;         
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.bloque-actividad-centro img:hover {
+    transform: scale(1.03);
+}
+
+
 .descripcion-actividad {
     margin: 10px 0 16px;
     font-size: 1rem;

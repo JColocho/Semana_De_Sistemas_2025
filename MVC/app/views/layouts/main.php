@@ -24,10 +24,10 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/dia1">Día 1</a></li>
-                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 2</a></li>
-                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 3</a></li>
-                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 4</a></li>
-                    <li class="nav-item"><a class="nav-link text-white rounded" href="#">Día 5</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/dia2">Día 2</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/dia3">Día 3</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/dia4">Día 4</a></li>
+                    <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/dia5">Día 5</a></li>
                     <li class="nav-item"><a class="nav-link text-white rounded" href="#">Mi Información</a></li>
                     <li class="nav-item"><a class="nav-link text-white rounded" href="/MVC/public/registro">Registro</a></li>
                 </ul>
@@ -43,8 +43,7 @@
             <div class="row">
                 <div class="col-lg-4 mb-4 mb-lg-0">
                     <h5 class="text-white mb-3">Semana de Sistemas 2025</h5>
-                    <p>"La innovación es lo que distingue a un líder de los demás."</p>
-                    <p>-Steve Jobs.</p>
+                    <p>"Conectando el futuro: IA, Blockchain y las tecnologías que transforman el futuro"</p>
                 </div>
                 <div class="col-lg-4">
                     <h5 class="text-white mb-3">Conéctate con ASEIS</h5>
