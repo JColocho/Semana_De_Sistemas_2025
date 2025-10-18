@@ -1,6 +1,8 @@
 <?php
 namespace app\controllers;
 use app\models\Visitante_model;
+use lib\Route; 
+
 
 class HomeController{
 
@@ -30,14 +32,21 @@ class HomeController{
     public function miInfo() {
         return $this->view("MiInformacionView",['title'=>'Mi Información']);
     }
-    public function registrarDatos(){
-        if (isset($_POST)){
-            $persona = new Visitante_model();
-            if ($persona->guardarVisitante($_POST)){
-                return header("Location: "); // todo hace falta a que redirigir
-            }
+public function registrarDatos()
+{
+    if ($_POST) {
+        $persona = new Visitante_model();
+
+        if ($persona->guardarVisitante($_POST)) {
+            header("Location: " . Route::$URL_BASE . "/");
+            exit();
+        } else {
+            header("Location: " . Route::$URL_BASE . "/registro");
+            exit();
         }
     }
+}
+
 
         public function view($vista,$data=[]){
         extract($data); //apartir de un arreglo asosiativo genera variables
