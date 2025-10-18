@@ -27,6 +27,9 @@ class HomeController{
     public function dia5() {
         return $this->view("Dia5View",['title'=>'Día 5']);
     }
+    public function miInfo() {
+        return $this->view("MiInformacionView",['title'=>'Mi Información']);
+    }
     public function registrarDatos(){
         if (isset($_POST)){
             $persona = new Visitante_model();
