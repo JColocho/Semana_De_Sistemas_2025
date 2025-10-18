@@ -33,11 +33,10 @@
                     centrales y la falta de transparencia en su emisión.</p>
                 <h2>¿Qué es Bitcoin?</h2>
                 <div class="ratio ratio-16x9 my-3">
-                    <iframe 
-                        src="img/dia1/ponencia1/queEsBitcoin.mp4" 
-                        title="El ABC del Bitcoin" 
-                        allowfullscreen>
-                    </iframe>
+                    <video controls>
+                        <source src="img/dia1/ponencia1/queEsBitcoin.mp4" type="video/mp4">
+                        Tu navegador no soporta el vide.
+                    </video>
                 </div>
                 <p> 
                     Bitcoin fue presentado como una forma de dinero digital descentralizada, 
@@ -216,11 +215,9 @@
 
             <h2>Premiación de los ganadores.</h2>
             <div class="ratio ratio-16x9 my-3">
-                <iframe 
-                    src="img/dia1/hackathon/premiacion.mp4" 
-                    title="El ABC del Bitcoin" 
-                    allowfullscreen>
-                </iframe>
+                <video controls>
+                    <source src="img/dia1/hackathon/premiacion.mp4" type="video/mp4">
+                </video>
             </div>
             <p> 
                 En este video se muestran los momentos finales del evento, donde los equipos 

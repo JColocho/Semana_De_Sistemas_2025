@@ -4,166 +4,79 @@
     <!-- Actividad 1 -->
     <div class="tarjeta">
         <div class="encabezado-tarjeta">
-            <h3>Conferencia Inaugural: El Futuro de la Ingeniería de Sistemas</h3>
-            <p class="mb-0"><i class="bi bi-clock me-2"></i>9:00 AM - 10:30 AM | Auditorio Principal</p>
+            <h3>Gran Feria de Logros <i class="bi bi-trophy"></i></h3>
+            <p class="my-0">Jueves 16 Octubre</p>
+            <p class="my-0"><i class="bi bi-clock me-2"></i>09:00 AM - 12:00 M | Plaza Minerva</p>
         </div>
         <div class="cuerpo-tarjeta">
             <div class="bloque-actividad">
                 <div>
-                    <i class="bi bi-mic" style="font-size:2.1rem;color:var(--primario)"></i>
-                    <h4 style="margin:0;color:var(--primario);">Conferencia Inaugural</h4>
-                    <p class="mb-0" style="color:#444;">Ceremonia de apertura con líderes de la industria</p>
+                    <img src="img/dia4/feria/actividad.jpg" alt="actividad feria de logros">
                 </div>
             </div>
-
             <div class="descripcion-actividad">
-                <p>La conferencia inaugural contó con ponentes destacados de empresas tecnológicas y universidades. Se exploraron tendencias emergentes en ingeniería de sistemas, IA y diseño sostenible.</p>
-                <p>La Dra. Elena Rodríguez presentó "Ingeniería de los sistemas del mañana: desafíos y oportunidades".</p>
+                <p>El tercer día de actividades estuvo marcado por un ambiente de creatividad e innovación durante la Gran Feria de Logros.
+                <br>
+                Este evento reunió a estudiantes de diversos años de la carrera para que presentaran los proyectos desarrollados a lo largo de su formación académica, demostrando sus habilidades en programación, electrónica, diseño y gestión de sistemas.</p>
+                <p>La feria sirvió como vitrina para exponer los resultados de meses de trabajo, donde los participantes mostraron soluciones tecnológicas aplicables a la vida cotidiana y a distintos sectores productivos.</p>
             </div>
 
-            <div class="detalles-actividad">
-                <div><strong>Duración:</strong> 90 minutos (incluye preguntas)</div>
-                <div><strong>Público:</strong> Todos los participantes registrados</div>
-                <div><strong>Formato:</strong> Presentación + Panel de discusión</div>
+            <h2>Algunos proyectos presentados</h2>
+            <div class="bloque-actividad-centro">
+                <img src="img/dia4/feria/cajero.jpg" alt="proyecto cajer ues">
             </div>
+            <p><strong>Sistema de cajero automático CAJERO UES</strong></p>
+            <p>Proyecto que simulaba las operaciones básicas de un cajero automático: consultas de saldo, retiros y depósitos entre muchas otras. Me llamó la atención por la correcta aplicación de estructuras lógicas en las transacciones simuladas y su interfaz limpia.</p>
 
-            <div class="seccion-presentadores">
-                <h4><i class="bi bi-person-badge me-2"></i>Presentadores</h4>
-
-                <div class="presentador">
-                    <div class="avatar-presentador">ER</div>
-                    <div class="info-presentador">
-                        <h5>Dra. Elena Rodríguez</h5>
-                        <div class="rol">Arquitecta Principal de Sistemas, TechGlobal</div>
-                        <p>Dirige la división de arquitectura en TechGlobal con más de 50 publicaciones.</p>
-                    </div>
-                </div>
-
-                <div class="presentador">
-                    <div class="avatar-presentador">MC</div>
-                    <div class="info-presentador">
-                        <h5>Prof. Michael Chen</h5>
-                        <div class="rol">Director, Centro de Investigación en Sistemas, Stanford University</div>
-                        <p>Especialista en sistemas ciberfísicos y proyectos internacionales de investigación.</p>
-                    </div>
-                </div>
-
-                <div class="presentador">
-                    <div class="avatar-presentador">SJ</div>
-                    <div class="info-presentador">
-                        <h5>Dra. Sarah Johnson</h5>
-                        <div class="rol">VP de Innovación, InnovateSys</div>
-                        <p>Lidera iniciativas sostenibles con experiencia en integración energética.</p>
-                    </div>
-                </div>
+            <div class="bloque-actividad-centro">
+                <img src="img/dia4/feria/bingo.jpg" alt="proyecto bingo digital">
             </div>
+            <p><strong>Proyecto de Bingo digital</strong></p>
+            <p>Presentado en la actividad del Hackathon, este sistema permitía realizar partidas de bingo automatizadas, gestionando números, jugadores y resultados en tiempo real. Fue presentado como una herramienta recreativa adaptable a entornos comunitarios y educativos.</p>
+
+            <div class="bloque-actividad-centro">
+                <img src="img/dia4/feria/estacionamiento.jpg" alt="proyecto sistema de parqueo">
+            </div>
+            <p><strong>Sistema de parqueo con Arduino PARKING UES</strong></p>
+            <p>La propuesta fue presentada mediante una maqueta interactiva que simulaba un estacionamiento real. Cada movimiento, desde la entrada de un vehículo hasta la salida era monitoreado en tiempo real, demostrando la eficiencia del sistema.</p>
         </div>
     </div>
 
-    <!-- Actividad 2 -->
+    <!-- Actividad 1 -->
     <div class="tarjeta">
         <div class="encabezado-tarjeta">
-            <h3>Taller: Patrones de Diseño para Arquitecturas Escalables</h3>
-            <p class="mb-0"><i class="bi bi-clock me-2"></i>11:00 AM - 12:30 PM | Sala B</p>
+            <h3>Gran pupuseada <i class="bi bi-basket"></i></h3>
+            <p class="my-0">Jueves 16 Octubre</p>
+            <p class="my-0"><i class="bi bi-clock me-2"></i>12:00 M | Plaza Minerva</p>
         </div>
         <div class="cuerpo-tarjeta">
             <div class="bloque-actividad">
                 <div>
-                    <i class="bi bi-tools" style="font-size:2.1rem;color:var(--primario)"></i>
-                    <h4 style="margin:0;color:var(--primario);">Taller Práctico</h4>
-                    <p class="mb-0" style="color:#444;">Técnicas prácticas de diseño de sistemas</p>
+                    <img src="img/dia4/pupuseada/actividad.jpg" alt="actividad">
                 </div>
             </div>
-
             <div class="descripcion-actividad">
-                <p>Este taller interactivo abordó patrones de diseño modernos para arquitecturas escalables y mantenibles, con ejercicios prácticos.</p>
+                <p>Después de la feria de logros, el ambiente se llenó de risas y buena comida con la esperada Gran Pupuseada, una actividad recreativa que unió a todos en una divertida competencia gastronómica.
+                El reto consistía en comer la mayor cantidad posible de pupusas siguiendo una serie de reglas muy particulares que pusieron a prueba la resistencia de los concursantes.</p>
+                <p>Normas del concurso:</p>
+                <ul>
+                    <li><p>No se permitía levantarse de la mesa durante la competencia.</p></li>
+                    <li><p>Después de las primeras 10 pupusas, ganaba quien lograra comer más.</p></li>
+                    <li><p>Cada pupusa debía comerse completamente antes de pedir la siguiente.</p></li>
+                </ul>
             </div>
 
-            <div class="detalles-actividad">
-                <div><strong>Requisitos:</strong> Conocimientos básicos de arquitectura de sistemas</div>
-                <div><strong>Materiales:</strong> Manual, plantillas y entorno en la nube</div>
-                <div><strong>Resultado:</strong> Certificado de participación</div>
+            <h2>Premiación de los ganadores</h2>
+            <div class="ratio ratio-16x9 my-3">
+                <video controls>
+                    <source src="img/dia4/pupuseada/ganadores.mp4" type="video/mp4">
+                </video>
             </div>
-
-            <div class="seccion-presentadores">
-                <h4><i class="bi bi-person-badge me-2"></i>Instructores</h4>
-
-                <div class="presentador">
-                    <div class="avatar-presentador">JW</div>
-                    <div class="info-presentador">
-                        <h5>James Wilson</h5>
-                        <div class="rol">Arquitecto Principal, CloudTech Solutions</div>
-                        <p>Experto en arquitectura empresarial y soluciones en la nube con más de 18 años de experiencia.</p>
-                    </div>
-                </div>
-
-                <div class="presentador">
-                    <div class="avatar-presentador">MG</div>
-                    <div class="info-presentador">
-                        <h5>María García</h5>
-                        <div class="rol">Ingeniera Senior de Sistemas, SysArchitects</div>
-                        <p>Especialista en microservicios y sistemas distribuidos; certificada en plataformas en la nube.</p>
-                    </div>
-                </div>
-            </div>
+            <p> 
+                En este video se muestra el momento de la premiación.
+                En él se puede ver a los ganadores del concurso, junto con el conteo final de cuántas pupusas logró comer cada participante.
+            </p>
         </div>
     </div>
 
-    <!-- Actividad 3 -->
-    <div class="tarjeta">
-        <div class="encabezado-tarjeta">
-            <h3>Hackathon de Innovación en Sistemas</h3>
-            <p class="mb-0"><i class="bi bi-clock me-2"></i>13:00 - 17:00 | Laboratorio de Innovación</p>
-        </div>
-        <div class="cuerpo-tarjeta">
-            <div class="bloque-actividad">
-                <div>
-                    <i class="bi bi-code-slash" style="font-size:2.1rem;color:var(--primario)"></i>
-                    <h4 style="margin:0;color:var(--primario);">Hackathon 24 horas</h4>
-                    <p class="mb-0" style="color:#444;">Desafío de innovación para equipos multidisciplinarios</p>
-                </div>
-            </div>
-
-            <div class="descripcion-actividad">
-                <p>Equipos multidisciplinarios desarrollaron prototipos centrados en sostenibilidad, salud e infraestructura inteligente, con mentoría técnica.</p>
-            </div>
-
-            <div class="detalles-actividad">
-                <div><strong>Áreas del reto:</strong> Ciudades sostenibles, salud, infraestructura inteligente</div>
-                <div><strong>Recursos:</strong> Créditos en la nube, acceso a APIs y herramientas</div>
-                <div><strong>Criterios:</strong> Innovación, implementación técnica, impacto y presentación</div>
-            </div>
-
-            <div class="seccion-presentadores">
-                <h4><i class="bi bi-person-badge me-2"></i>Mentores y Jurado</h4>
-
-                <div class="presentador">
-                    <div class="avatar-presentador">RK</div>
-                    <div class="info-presentador">
-                        <h5>Dr. Robert Kim</h5>
-                        <div class="rol">Director de Innovación, GreenTech Systems</div>
-                        <p>Líder en tecnología sostenible y mentor de startups con experiencia en sistemas energéticos.</p>
-                    </div>
-                </div>
-
-                <div class="presentador">
-                    <div class="avatar-presentador">LP</div>
-                    <div class="info-presentador">
-                        <h5>Dra. Lisa Patel</h5>
-                        <div class="rol">Profesora, Carnegie Mellon University</div>
-                        <p>Especialista en integración humano-sistema y sistemas adaptativos complejos.</p>
-                    </div>
-                </div>
-
-                <div class="presentador">
-                    <div class="avatar-presentador">MT</div>
-                    <div class="info-presentador">
-                        <h5>Mark Thompson</h5>
-                        <div class="rol">CTO, AutoSys Industries</div>
-                        <p>Experto en sistemas autónomos e integración de IA con más de 20 años de experiencia.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
